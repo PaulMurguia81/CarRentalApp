@@ -83,7 +83,7 @@ namespace CarRentalApp
         {
             try
             {
-                //get ID of selected Row
+                //get ID of the selected Row
                 var id = (int)dgvVehicleList.SelectedRows[0].Cells["Id"].Value;
 
                 //query database for record
